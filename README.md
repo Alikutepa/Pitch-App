@@ -1,8 +1,8 @@
-## Pitch-Deck
+## Pitches
 An application that allows users to post,comment and vote on pitches in various categories , 26/10/2020.
 By Juliana Alikutepa
 ## Description
-Pitch was developed to allow users to visit the site and get inspiration on how to write the best pitch. Users can also submit their own pitches, vote and/or comment on submitted pitches.
+Pitches was developed to allow users to visit the site and get inspiration on how to write the best pitch. Users can also submit their own pitches, vote and/or comment on submitted pitches.
 
 ## Live link
 Visit the application on 
