@@ -1,0 +1,3 @@
+Hello {{user.username}}
+Welcome to Pitches
+Impress someone in a minute and get inspired as well.
