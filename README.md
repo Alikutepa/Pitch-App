@@ -21,12 +21,13 @@ To make advancements/modifications, follow these steps:
 * Technologies Used
 ## Technologies used to develop this application:
 
-* Python v3.8
+* Python v3.9
 * Flask 1.1.2
 * Flask-Bootstrap
 * HTML
 * CSS
 ## Known bugs
+Once you sign in it gives you an error but the account is saved and you can still log in with the credentials given.
 
 
 ## Support and contact details
