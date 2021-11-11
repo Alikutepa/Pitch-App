@@ -10,7 +10,7 @@ class UpdateProfile(FlaskForm):
 
 class PitchForm(FlaskForm):
     title = StringField('Title', validators=[Required()])
-    category = SelectField('Pitch Category', choices=[('Sales','Sales'),('Interview','Interview'),
+    category = SelectField('Pitch Category', choices=[('Interview','Interview'),
     ('Elevator','Elevator'),('Promotion','Promotion'),('Personal','Personal'),
     ('Pickup-lines','Pickup-lines')],validators=[Required()])
     post = TextAreaField('Pitch', validators=[Required()])

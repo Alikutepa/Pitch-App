@@ -14,8 +14,7 @@ def index():
 
 @main.route('/pitches')
 def pitches():
-    pitches = Pitch.query.all()
-    sales = Pitch.query.filter_by(category = 'sales').all() 
+    pitches = Pitch.query.all() 
     interview = Pitch.query.filter_by(category = 'interview').all()
     elevator = Pitch.query.filter_by(category = 'elevator').all()
     promotion = Pitch.query.filter_by(category = 'promotion').all()
@@ -23,7 +22,7 @@ def pitches():
     pickuplines = Pitch.query.filter_by(category = 'pickuplines').all()
 
     title = 'Pitches -  Welcome to The Pitches Website'
-    return render_template('pitches.html', title=title , pitches = pitches, sales = sales,interview = interview, 
+    return render_template('pitches.html', title=title , pitches = pitches, interview = interview, 
     elevator = elevator,promotion = promotion, personal = personal, pickuplines = pickuplines)
 
 @main.route('/addpitches', methods = ['GET', 'POST'])
