@@ -1,11 +1,11 @@
 ## Pitches
-An application that allows users to post,comment and vote on pitches in various categories , 26/10/2020.
+An application that allows users to post,comment and vote on pitches in various categories , 26/10/2021.
 By Juliana Alikutepa
 ## Description
 Pitches was developed to allow users to visit the site and get inspiration on how to write the best pitch. Users can also submit their own pitches, vote and/or comment on submitted pitches.
 
 ## Live link
-Visit the application on 
+Visit the application on https://pitchappp.herokuapp.com/pitches
 
 
 ## Development
